@@ -1,0 +1,282 @@
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #navbar ul li a {
+        padding: 0px 8px;
+        font-size: 14px;
+        line-height: 72px;
+    }
+
+    .service-right {
+        font-size: 12px;
+    }
+
+    .why-us h3 {
+        font-size: 11px;
+    }
+}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .menu-top {
+        padding: 70px 0 0;
+    }
+
+    .menu-container {
+        margin: 0;
+    }
+
+    .search {
+        margin: 0;
+        text-align: center;
+    }
+
+    .why-us {
+        width: 30%;
+        margin: 0 auto;
+        float: inherit;
+        margin-bottom: 20px;
+    }
+
+    .why-us h3 i {
+        transform: rotate(90deg);
+    }
+
+    .service-box {
+        width: 100%;
+    }
+
+    .service-right {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .support-box ul li {
+        padding: 10px;
+    }
+
+    .service-box ul li:first-child {
+        border-left: 1px solid #D1D1D1;
+    }
+
+    .product-dec {
+        margin-top: 50px;
+    }
+
+    .product-dec h4 {
+        font-size: 20px;
+    }
+
+    .product-dec h3 {
+        font-size: 20px;
+    }
+
+    .product-dec p,
+    .tab-section p {
+        font-size: 13px;
+    }
+}
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+
+    .wel-come {
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .search {
+        text-align: center;
+    }
+
+    /* menu start */
+    .navbar-header > label,
+    .switch,
+    .menu-container label {
+        display: block;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #menu-switcher:checked + #navbar {
+        display: block;
+    }
+
+    .menu-container {
+        /* padding: 26px 0; */
+        margin: 0;
+        float: left;
+        width: 100%;
+    }
+
+    #navbar ul {
+        width: 100% !important;
+    }
+
+    #navbar ul li {
+        width: 100%;
+        float: left;
+        margin: 0 !important;
+        text-align: left;
+    }
+
+    #navbar ul li a {
+        color: #fff;
+        display: block;
+        text-align: left;
+        line-height: 40px;
+    }
+
+    #navbar {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: absolute;
+        top: 44px;
+        z-index: 999;
+        left: 0;
+        background-color: #000;
+    }
+
+    /* menu end */
+    .why-us {
+        width: 100%;
+        margin: 0 auto;
+        float: inherit;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .why-us h3 i {
+        transform: rotate(90deg);
+    }
+
+    .service-box ul li:first-child {
+        width: 100%;
+    }
+
+    .service-left {
+        width: 20%;
+    }
+
+    .service-box {
+        width: 100%;
+    }
+
+    .service-left img {
+        width: 31px;
+    }
+
+    .service-right {
+        width: 78%;
+    }
+
+    .support-box ul li {
+        width: 100%;
+    }
+
+    .service-box ul li {
+        border: 1px solid #D1D1D1;
+        border-top: 0;
+    }
+
+    .service-box ul li:first-child {
+        border-top: 1px solid #D1D1D1;
+    }
+
+    .pro-title {
+        padding: 15px 10px;
+        text-align: center;
+    }
+
+    .pro-title h3 {
+        font-size: 20px;
+    }
+
+    .product-dec p,
+    .tab-section p,
+    .copy-right p {
+        font-size: 13px;
+    }
+
+    .pro-title a,
+    .pro-title .separate {
+        display: none;
+    }
+
+    .csslider ul li img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .product-dec {
+        margin-top: 50px;
+    }
+
+    .product-dec h3,
+    .product-dec h4,
+    .single-care h3 {
+        font-size: 16px;
+    }
+
+    .tab-area label {
+        width: 100%;
+    }
+
+    .tab-list img {
+        margin-bottom: 10px;
+
+    }
+
+    .tab-list {
+        padding: 10px 0;
+
+    }
+
+    section.tab-section {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .promo-area h3 {
+        font-size: 14px;
+    }
+
+    .product-wraper {
+        padding: 30px 10px;
+    }
+
+    .ex {
+        padding: 0;
+    }
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .service-box ul li:first-child,
+    .support-box ul li {
+        width: 50%;
+    }
+
+    .why-us h3 i {
+        margin-top: 0;
+    }
+
+    .service-box ul li {
+        border-top: 1px solid #D1D1D1;
+    }
+}
